@@ -1,0 +1,139 @@
+---
+titlepage: formal 
+titlepage-logo: "img/logo.png"
+titlepage-theme:
+  elements: ["\\titleblock", "\\authorblock", "\\vfill", "A report presented at the annual\\\\meeting on 10 August 2025\\\\ \\vspace{0.8cm}", "\\logoblock", "\\footerblock"]
+  page-align: "center"
+  title-style: "plain"
+  title-fontstyle: ["Huge", "textbf"]
+  title-space-after: "1.5cm"
+  subtitle-fontstyle: "LARGE"
+  title-subtitle-space-between: "0.5cm"
+  author-style: "plain"
+  author-sep: "newline"
+  author-fontstyle: "textbf"
+  author-space-after: "2\\baselineskip"
+  affiliation-style: "numbered-list-with-correspondence"
+  affiliation-fontstyle: "large"
+  affiliation-space-after: "0pt"
+  footer-style: "plain"
+  footer-fontstyle: ["Large", "textsc"]
+  footer-space-after: "0pt"
+  logo-size: "0.4\\textwidth"
+  logo-space-after: "1cm"
+title: "AI in Software Development"
+
+date: March 23, 2025
+
+authors:
+  - name: Tyler Sapp
+  - name: Ronald Menendez
+  - name: Gustavo Naveto
+  - name: Nick Larson
+
+format:
+  html: 
+    theme: darkly
+
+---
+
+\vspace{34em}
+
+---
+
+# Table of Contents
+
+
+\vspace{34em}
+---
+
+# Introduction {#introduction}
+
+Artificial Intelligence (AI) has become a transformative force in software development, offering tools that enhance productivity, streamline workflows, and reduce errors. From generating code snippets to providing intelligent suggestions, AI tools are reshaping how developers approach coding tasks. This report explores the state-of-the-art AI tools in coding, compares three prominent tools—OpenAI Codex, GitHub Copilot, and Tabnine—and highlights emerging solutions like Codeium. By examining their features, advantages, and limitations, we aim to provide insights into how these tools are influencing the future of software development.
+
+
+# State-of-the-Art AI Tools in Coding {#state-of-the-art-ai-tools}
+
+
+# Comparison of Three AI Tools {#comparison-of-three-ai-tools}
+## Comparison Table
+
+| Feature/Tool       | OpenAI Codex                     | GitHub Copilot                 | Tabnine                        |
+|---------------------|----------------------------------|---------------------------------|--------------------------------|
+| **Primary Function** | Code generation from natural language | Code suggestions and completions | Context-aware code completion |
+| **Proficiency**     | Best with Python, supports others | Wide language and framework support | Supports many languages       |
+| **Integration**     | Limited availability            | IDE integration (e.g., VS Code) | IDE integration (e.g., IntelliJ) |
+| **Advantages**      | Specializes in code, powerful for Python | Reduces errors, learns patterns | Speeds up coding, flexible deployment |
+| **Limitations**     | Discontinued for public use, outdated | Dependency risks, potential errors | Limited for complex structures |
+
+## OpenAI
+
+OpenAI Codex is an AI tool designed by OpenAI to generate code from natural language. OpenAI have also created other AI tools such as chatgpt, gpt 1-4, and have worked together with Github to develop Github copilot. According to Alford (2021), OpenAI Codex was trained from 159 gigabytes of Python code from 54 million public Github repositories.
+
+A pro about OpenAI Codex is that it’s most proficient in Python while it can also work with other programming languages. Knowing which programming language an AI tool is most proficient in helps in deciding which AI tool to use and how to use it. Another pro, is that OpenAI Codex specializes in code which makes it better at generating and understanding code than another generic tool like Chatgpt
+
+A con is that OpenAI Codex was discontinued for public use by OpenAI in March 2023 and is available for research. Another con is that OpenAI is based off of OpenAI’s gpt-3 model which makes it outdated when compared to the newer gpt models released by OpenAI. This adds up to OpenAI Codex being less reliable and accessible as there are better and newer alternatives to use.
+
+
+**Sources (APA):**
+https://the-decoder.com/openai-kills-code-model-codex/
+https://openai.com/index/openai-codex/
+https://www.infoq.com/news/2021/08/openai-codex/
+https://platform.openai.com/docs/models
+
+
+The Decoder. (2023, January 17). OpenAI kills its code model Codex. The Decoder. https://the-decoder.com/openai-kills-code-model-codex/
+
+
+OpenAI. (n.d.). OpenAI Codex. OpenAI. https://openai.com/index/openai-codex/
+
+
+Lardinois, F. (2021, August 10). OpenAI launches Codex, a new AI model that can write code and power new developer tools. InfoQ. https://www.infoq.com/news/2021/08/openai-codex/
+
+
+OpenAI. (n.d.). Models documentation. OpenAI. https://platform.openai.com/docs/models
+
+
+## GitHub CoPilot
+
+GitHub Copilot is an AI tool created by GitHub and OpenAI to assist programmers with coding by suggesting specific changes that could range from entire functions to individual lines, saving time and helping maintain sharp coding skills. This tool can be integrated into programming software, such as Visual Studio Code, through extensions.
+
+Advantages of using this tool include learning and discovering new coding patterns and alternative solutions to problems by considering the AI’s suggestions. It also offers wide language and framework support, providing assistance for a variety of languages like Python and Java. Another benefit of GitHub Copilot’s suggestions is the reduction in coding errors by offering solutions that might not have been considered.
+
+Some disadvantages of using this tool include dependency on the tool, which can reduce problem-solving skills. Additionally, effectively using the AI’s suggestions and applying them to your work requires learning and adaptation from the user. The AI might also suggest potential coding errors, so users should not rely blindly on its suggestions. Finally, GitHub Copilot cannot ensure adherence to project standards and quality.
+
+
+**Sources (APA):**
+Netguru. (n.d.). GitHub Copilot Pros and Cons. Netguru Blog. Retrieved March 30, 2025, from https://www.netguru.com/blog/github-copilot​
+
+## Tabnine
+
+Tabnine is an AI-powered code completion tool designed to assist developers by predicting and suggesting code snippets as they type. It integrates seamlessly with popular IDEs like Visual Studio Code, IntelliJ IDEA, and others, making it a versatile tool for developers across various programming languages.
+
+One of the key advantages of Tabnine is its ability to provide context-aware suggestions, which can significantly speed up the coding process. It supports a wide range of programming languages, including Python, JavaScript, Java, and more. Additionally, Tabnine offers both cloud-based and local models, giving users the flexibility to choose based on their privacy and performance needs.
+
+However, Tabnine has its limitations. While it excels at code completion, it may not be as effective for generating complex code structures or understanding high-level project requirements. Additionally, the quality of its suggestions can vary depending on the context and the quality of the existing codebase. Users may also need to invest time in configuring and fine-tuning the tool to suit their specific needs.
+
+**Sources (APA):**
+Tabnine. (n.d.). Tabnine AI Code Completion. Tabnine. Retrieved March 30, 2025, from https://www.tabnine.com/
+
+
+# Emerging AI Tools {#emerging-ai-tools}
+
+## Codeium
+
+Codeium is an emerging AI-powered code assistant designed to enhance developer productivity by providing intelligent code suggestions, autocompletions, and refactoring recommendations. It integrates with popular IDEs like Visual Studio Code, JetBrains, and others, making it accessible to a wide range of developers.
+
+One of the standout features of Codeium is its focus on privacy and security. Unlike many other AI tools, Codeium offers an on-premises deployment option, allowing organizations to use the tool without sending sensitive code to external servers. This makes it particularly appealing for enterprises with strict data security requirements.
+
+Codeium also supports a wide variety of programming languages and frameworks, making it versatile for developers working on diverse projects. Its machine learning models are trained to understand context, enabling it to provide relevant and accurate suggestions that align with the developer's intent.
+
+However, as a relatively new tool, Codeium is still evolving. Some users have reported occasional inaccuracies in its suggestions, and its feature set may not yet be as extensive as more established tools like GitHub Copilot or Tabnine. Despite these limitations, Codeium shows great promise and is quickly gaining traction in the developer community.
+
+**Sources (APA):**
+Codeium. (n.d.). Codeium AI Code Assistant. Codeium. Retrieved March 30, 2025, from https://www.codeium.com/
+
+
+# Conclusion {#conclusion}
+
+AI is transforming software development by enhancing productivity, reducing errors, and accelerating workflows. While challenges like code quality and ethical concerns remain, AI tools act as powerful assistants, complementing human developers and shaping the future of coding.
